@@ -5,7 +5,9 @@
     box-sizing: border-box;
 }
 /* COMMON */
-
+body{
+    font-family: "Whitney",sans-serif;
+}
 .clearfix::after{
     content: "";
     display: table;
@@ -87,6 +89,31 @@ header{
     line-height: 40px;
     padding: 30px 0px;
 }
+.btn-jumbo{
+    margin-top: 50px;
+}
+.btn-jumbo a{
+    text-decoration: none;
+    padding: 30px;
+    border-radius: 40px;
+    margin-right: 20px;
+    font-size: 30px;
+}
+.arrow{
+    padding-right: 15px;
+    font-size: 40px;
+    color: #23272a;
+}
+.btn-mac{
+    color: #23272a;
+    background-color: white;
+    font-weight: 200;
+}
+.btn-browser{
+    color: white;
+    background-color: #23272a;
+    font-weight: 200;
+}
 
 
 
@@ -94,4 +121,3 @@ header{
 
 
 /* Aggiungere font dal github di Alessandro */
-/* Chiarire bene perchè header ha bisogno di altezza fissa */
